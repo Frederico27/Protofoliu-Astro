@@ -6,8 +6,8 @@ import vercel from '@astrojs/vercel/serverless';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astrofy-template.netlify.app',
-  output: 'server',
+  site: 'https://protofoliu-astro.vercel.app/',
+  output: 'hybrid',
   adapter: vercel(),
   integrations: [mdx(), sitemap(), tailwind()]
 });
