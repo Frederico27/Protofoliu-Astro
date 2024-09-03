@@ -44,7 +44,7 @@ Tamba ne'e karik ita interesante hodi kria ita nia website ho Django, mai ita ap
     ```bash
     pip list
     ```    
-    karik kompletu maka ita nia lista library sira sei sai kompletu hanesan iha okos:
+    Karik kompletu maka ita nia lista library sira sei sai kompletu hanesan iha okos:
     ```bash
     Package              Version
     -------------------- -----------
@@ -60,7 +60,7 @@ Tamba ne'e karik ita interesante hodi kria ita nia website ho Django, mai ita ap
    ```bash
     django-admin startproject naran_projetu
    ```
-   Karik kria ona aplikasaun django maka ita nia estrutura husi listing directory maka hanesan iha okos:
+   Se Kria ona aplikasaun django maka ita nia estrutura husi listing directory maka sei sai hanesan iha okos:
     ```
     .
     ├── naran_projetu/
@@ -91,10 +91,10 @@ Tamba ne'e karik ita interesante hodi kria ita nia website ho Django, mai ita ap
     ```bash
     python manage.py runserver
     ```
-    Karik susessu ona ita bele haree mosu imajen hanesan iha okos:
+    Susessu ona ita bele haree mosu imajen hanesan iha okos:
 
     ![Run Django](https://media.geeksforgeeks.org/wp-content/uploads/Screenshot-67.png "GeeksForGeeks")
-    Karik Kolega sira hakarak kria aplikasaun foun iha ita nia projetu nia laran ita bele halo ho komandu tuirmai:
+    Dalaruma Kolega sira hakarak kria aplikasaun foun iha ita nia projetu nia laran ita bele halo ho komandu tuirmai:
     ```bash
     python manage.py startapp naran_app
     ```
