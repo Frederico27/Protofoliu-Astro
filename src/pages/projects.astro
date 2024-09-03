@@ -1,0 +1,42 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title="Projects" sideBarActiveItemID="projects">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Projects ⚒️</div>
+  </div>
+
+  <HorizontalCard
+    title="Weather Restful API of Timor-Leste"
+    img="/weatherapi.JPG"
+    desc=`This Restful API application created to engaged all the municipality Weather 
+    data across East Timor. This backend of the Restful API created with PHP (Laravel Framework) 
+    with MySQL.`
+    url="https://weather-api-timor-leste.vercel.app/"
+    badge="Recently"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Todolist App"
+    img="/todolist.JPG"
+    desc=`This todolist app is created to store all the list
+  of activities of the user. The stack to created
+  the website is used Laravel, MySQL and
+  Livewire.`
+    url="https://github.com/Frederico27/todolist-livewire"
+  />
+
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Shop Ailok"
+    img="/shop.JPG"
+    desc=`A Simple CRM website that enables user
+    and seller to sell their products and make
+    transaction between them. This website is
+    created with Django as the Framework and
+    MySQL`
+    url="https://github.com/Frederico27/Shop-Ailok"
+  />
+</BaseLayout>

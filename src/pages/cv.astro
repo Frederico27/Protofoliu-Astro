@@ -1,0 +1,145 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Summary About Me 🤵</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Hello my name is Frederico Viegas Orlando Marcal, I am a final semester
+    Informatics student in Department of Informatics Engineering at UNTL
+    University (Universidade Nacional Timor Lorosa'e). I am very passionate
+    about technology especially in website development, frontend and backend,
+    Data Analysist and Machine Learning.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education 🏫</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Department of Informatics Engineering | Universidade Nacional Timor Lorosae (UNTL)"
+      subtitle="2020 until Currently"
+    />
+    <TimeLineElement
+      title="Santa Madalena Canossa High School Comoro Dili Timor Leste"
+      subtitle="2017 until 2019"
+    />
+
+    <TimeLineElement
+      title="Santa Madalena Junior High School Comoro Dili Timor-Leste"
+      subtitle="2014 until 2016"
+    />
+
+    <TimeLineElement
+      title="Hans Klem Primary School, Bairo-Pite Dili Timor-Leste"
+      subtitle="2008 until 2013"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience 🧪</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Volunteer as an IT assistant at (PAM Liquica)"
+      subtitle="From 16 July to 16 August 2024 at Authority Municipality of Liquica (PAM Liquica), Liquica, Timor-Leste"
+    >
+      Participated in the school's social internship programme to assist as an
+      IT worker at the Liquica Municipal Autority Office (governor's office),
+      helping to train the sira staff on the proper use of ICT and also
+      assisting in IT-related work such as troubleshooting on computers and the
+      internet.
+    </TimeLineElement>
+    <TimeLineElement
+      title="IT Support Volunteer at Instituto Nacional Farmacia Professional e Medicos (INFPM)"
+      subtitle="From March to July 2024 at Instituto Nacional Farmacia Professional e Medicos (INFPM), Dili, Timor-Leste"
+    >
+      As an IT Technician and Support in the National Institue of Farmacy and
+      Professional Medicals to provide assistance on staff about troubleshooting
+      on the internet and other technology devices. Also help the staff works to
+      create a simple website to management to help them manage their data
+      easily.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Timor-Leste Presidential Protocol IT Staff for the 2023 Total Solar Eclipse event"
+      subtitle="April 2023 at Dili Timor-Leste"
+    >
+      Volunteered as IT staff for the presidential protocol to help provide an
+      assist as well design banners to provide information to the public in the
+      face of the Total Solar Eclipse astronomical event
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications 🏆</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a
+        href="https://drive.google.com/file/d/1yszkzXeuQHjdLLhRkKzljxByfI2Em9HM/view?usp=drive_link"
+        target="_blank">Osaka Gas Scholarships (with link)</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://drive.google.com/file/d/10AKOGAlSZ7HZyHuxARdneIaml5Va-Fac/view?usp=drive_link"
+        target="_blank"
+        >Memulai Pemograman dengan Python (Dicoding) (with link)</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://drive.google.com/file/d/1EpFzOK-ovcD79xlQUsV6OVi7ZxNoiMoc/view?usp=drive_link"
+        target="_blank"
+        >Belajar Visualisasi Data Python (Dicoding) (with link)</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://drive.google.com/file/d/1ctwttlXD1wPU8WPz7iRG53e6A54PMjBu/view?usp=drive_link"
+        target="_blank"
+        >Pemograman PHP: Pemula Sampai Mahir | Programmer Zaman Now Udemy (with
+        link)</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://drive.google.com/file/d/1pAxcMOVI74f9obmFpBgfqnlPgyEMGBE3/view?usp=drive_link"
+        target="_blank"
+        >Belajar Laravel: Pemula Sampai Mahir | Programmer Zaman Now Udemy (with
+        link)</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://drive.google.com/file/d/1dJXffgT-5iG3Qc8Ky6rWwnDCMmVRv2hS/view?usp=drive_link"
+        target="_blank"
+        >Django Rest Frameworks abosulute Beginners (Udemy) (with link)</a
+      >
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills ✨</div>
+  </div>
+
+  <ul class="list-disc md:columns-2 columns-2 mx-6">
+    <li>Web development and RestFull API (Laravel, Django, React JS)</li>
+    <li>
+      Data Analyst and Machine Learning with (Skicit Learn, Other Python
+      library)
+    </li>
+    <li>Version Control with Git & Gtihub</li>
+    <li>Database (MySQL and PostgreSQL)</li>
+    <li>Familiar with Windows, Linux, Office Program</li>
+    <li>Problem Solving, Time Management, Organizational skills</li>
+    <li>Knowing well in Bahasa Indonesia, English and Portuguese</li>
+  </ul>
+</BaseLayout>
