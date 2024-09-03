@@ -5,7 +5,7 @@ pubDate: "Sep 3 2024"
 heroImage: "https://cdn.hdwebsoft.com/wp-content/uploads/2021/11/Thiet-ke-chua-co-ten-4.jpg.webp"
 tags: ["Web Dev", Ariko]
 ---
-
+<div style="text-align: justify">
 Laravel hanesan framework ida ne'ebe popular iha Komunidade Programmer Web sira, Tamba Laravel hanesan framework monolith ne'ebe mai ho nia ekosistema ne'ebe suporta tebes Programmer sira hodi bele fasil no enjoy hodi kria aplikasaun ruma. 
 
 Framework ne'ebe kria husi <b>Taylor Otwell</b> iha 2011 ne'e fasil tebes atu ita integra ho library no frontend framework sira seluk tamba komunidade ne'ebe sempre suporta no kria package sira ne'ebe fasilita tebes ba Programador sira.
@@ -102,4 +102,4 @@ Hodi installa Laravel ita presija iha Composer hodi sai hanesan package manager 
     ![Run Laravel](https://laravelnews.s3.amazonaws.com/images/8jF662ByKr0ej83fvcptR890q7040zfqbubRv6x6.png "Laravel News")
 
     Maka ne’e deit tutorial refere, Obrigado Barak ba lee ona 😊!
-
+</div>
